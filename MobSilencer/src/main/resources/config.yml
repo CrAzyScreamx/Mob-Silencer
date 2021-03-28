@@ -1,0 +1,28 @@
+# MobSilencer by SunCrAzy
+
+# Enable blacklist:
+blacklist-enabled-players: false
+
+# BlackListed People ( If there are any people blacklisted from using this plugin, add them here ):
+blacklisted-players:
+  - MyPlayer1
+  - MyPlayer2
+
+# Name-Tag custom name for the animal to be silenced ( leave "" to make it default option ):
+Name Tag Custom Name Silenced: ""
+# Name-Tag custom name for the animal to make noise again ( leave "" to make it default option ):
+Name Tag Custom Name Un-Silenced: ""
+
+# Enable Black Listed animals ( will not take affect from the plugin:
+blacklisted-entities-enabled: false
+
+# List of blacklisted entities ( friendly and unfriendly )
+# You can visit this sit for acceptable names - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+blacklisted-entities:
+  - Animal1
+  - Animal2
+  - Animal_Type3
+
+# true - will keep the silent feature if you change the name
+# false - will auto disable silent feature when changing the name
+Keep sound on name change: true

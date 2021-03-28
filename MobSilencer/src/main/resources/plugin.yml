@@ -1,0 +1,9 @@
+name: MobSilencer
+version: ${project.version}
+main: me.suncrazy.MobSilencer
+api-version: 1.16
+commands:
+  reload:
+    description: used to reload the config.yml file
+    usage: /<command>
+    permission: mobsilencer.reload
